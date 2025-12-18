@@ -6,7 +6,7 @@
 
 ✅ **Smart Doctor Search** - Find healthcare professionals by specialty, location, availability, or symptoms.  
 ✅ **Real-Time Bookings** - Instantly secure bookings without long phone calls.   
-✅ **Verified Doctors** – Vetted practitioners ensure trust and reliability.  
+✅ **Verified Doctors** – 2,500+ thoroughly vetted practitioners ensure trust and reliability.  
 ✅ **Patient Reviews** – Ratings and authentic feedback to make informed decisions.  
 ✅ **Appointment Management Dashboard** - Seamlessly track past and upcoming visits.  
 ✅ **Smart Notifications** – Automated reminders for appointments.  
@@ -31,19 +31,104 @@
 
 ## 🛠 Project Structure  
 
-📂 `app/` - Next.js pages organized using the App Router 🚦
-📂 `components/` - Modular and reusable UI sections 🧩  
-📂 `hooks/` - Shared custom hooks for enhanced app functionality 🔄  
-📂 `lib/` - Utility functions and mock data for easy backend integration 📚  
-📂 `public/` - Static images and assets 🌐  
-
-Detailed Highlights:  
-- `app/page.tsx`: Homepage with hero section, reviews, and more.  
-- `app/search/`: Doctor search and filtering.  
-- `app/doctor/[id]/`: Rich doctor profiles with availability.  
-- `app/booking/`: Booking process including confirmation.  
-- `app/dashboard/`: Manage appointments and user details.  
-- `components/ui/`: Powered by `shadcn/ui` for scalable and accessible design.
+```
+ClinicHubDoctorReservation/
+├─ README.md                     
+├─ ClinicHubMockup.png           
+├─ package.json                  
+├─ pnpm-lock.yaml                 
+├─ tsconfig.json                  
+├─ next.config.mjs                
+├─ postcss.config.mjs             
+├─ components.json                
+├─ app/                          
+│  ├─ layout.tsx                  
+│  ├─ client-layout.tsx          
+│  ├─ globals.css                
+│  ├─ loading.tsx                 
+│  ├─ page.tsx                   
+│  ├─ about/                      
+│  │  ├─ page.tsx                
+│  │  └─ loading.tsx             
+│  ├─ contact/                   
+│  │  ├─ page.tsx                
+│  │  └─ loading.tsx             
+│  ├─ login/                     
+│  │  ├─ page.tsx                 
+│  │  └─ loading.tsx              
+│  ├─ signup/                    
+│  │  ├─ page.tsx                 
+│  │  └─ loading.tsx             
+│  ├─ dashboard/                
+│  │  ├─ page.tsx                 
+│  │  └─ loading.tsx              
+│  ├─ search/                     
+│  │  ├─ page.tsx                 
+│  │  └─ loading.tsx              
+│  ├─ booking/                    
+│  │  └─ confirmation/            
+│  │     ├─ page.tsx              
+│  │     └─ loading.tsx           
+│  └─ doctor/                     
+│     └─ [id]/                    
+│        ├─ page.tsx              
+│        └─ loading.tsx         
+├─ components/                    
+│  ├─ navbar.tsx                  
+│  ├─ footer.tsx                  
+│  ├─ hero-section.tsx          
+│  ├─ search-box.tsx              
+│  ├─ stats-section.tsx           
+│  ├─ features-section.tsx        
+│  ├─ symptom-checker.tsx         
+│  ├─ nearby-doctors.tsx         
+│  ├─ trust-badges.tsx           
+│  ├─ reviews-section.tsx        
+│  ├─ animated-cta.tsx           
+│  ├─ chatbot.tsx                
+│  ├─ scroll-to-top.tsx           
+│  ├─ theme-provider.tsx         
+│  ├─ theme-toggle.tsx           
+│  ├─ login-form.tsx              
+│  ├─ signup-form.tsx             
+│  ├─ appointment-card.tsx        
+│  ├─ profile-info.tsx           
+│  ├─ doctor-card.tsx             
+│  ├─ doctor-list.tsx             
+│  ├─ doctor-profile-header.tsx   
+│  ├─ search-filters.tsx          
+│  ├─ booking-form.tsx            
+│  ├─ booking-summary.tsx         
+│  ├─ availability-calendar.tsx   
+│  ├─ progress-indicator.tsx      
+│  ├─ quick-booking-modal.tsx     
+│  └─ ui/                         
+├─ hooks/                         
+│  ├─ use-mobile.ts              
+│  └─ use-toast.ts                
+├─ lib/                           
+│  ├─ mock-data.ts                
+│  └─ utils.ts                    
+├─ public/                        
+│  ├─ placeholder.svg            
+│  ├─ placeholder.png/.jpg        
+│  ├─ placeholder-logo.png/svg   
+│  ├─ placeholder-user.jpg        
+│  ├─ female-doctor-professional.jpg  
+│  ├─ female-doctor.jpg
+│  ├─ female-pediatrician.png
+│  ├─ female-psychiatrist-professional.jpg
+│  ├─ male-orthopedic-doctor.png
+│  ├─ professional-male-doctor.png
+│  ├─ modern-healthcare-team-collaboration.jpg
+│  ├─ professional-woman.png
+│  ├─ man-business.jpg
+│  ├─ man-casual.jpg
+│  ├─ man-professional.jpg
+│  └─ smiling-woman.png
+└─ styles/                        
+   └─ globals.css                 
+```
 
 ---
 
