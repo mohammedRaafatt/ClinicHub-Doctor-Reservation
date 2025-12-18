@@ -6,7 +6,7 @@
 
 ✅ **Smart Doctor Search** - Find healthcare professionals by specialty, location, availability, or symptoms.  
 ✅ **Real-Time Bookings** - Instantly secure bookings without long phone calls.   
-✅ **Verified Doctors** – 2,500+ thoroughly vetted practitioners ensure trust and reliability.  
+✅ **Verified Doctors** – Vetted practitioners ensure trust and reliability.  
 ✅ **Patient Reviews** – Ratings and authentic feedback to make informed decisions.  
 ✅ **Appointment Management Dashboard** - Seamlessly track past and upcoming visits.  
 ✅ **Smart Notifications** – Automated reminders for appointments.  
