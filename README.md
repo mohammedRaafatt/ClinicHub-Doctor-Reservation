@@ -16,7 +16,7 @@
 ---
 
 ## 🌿 Live Demo  
-🚀 Try it out here: [HealthBook - Live Application](https://clinic-hub-booking.netlify.app/)  
+🚀 Try it out here: [ClinicHub - Live Application](https://clinic-hub-booking.netlify.app/)  
 
 ---
 
@@ -137,8 +137,8 @@ ClinicHubDoctorReservation/
 ✨ Clone the repo and set it up locally:  
 
 ```bash
-git clone https://github.com/your-username/healthbook.git
-cd healthbook
+git clone https://github.com/mohammedRaafatt/Clinic-Hub.git
+cd Clinic-Hub
 ```
 
 ### Prerequisites  
